@@ -29,7 +29,9 @@ def inside(head):
     return -250<head[0]<250 and -250 <head[1] <250
 
 def snake_move():
-    head = copy.deepcopy(snake[-1])
+    #head = snake[-1][:]
+    head = [snake[-1][0],snake[-1][1]]
+    #head = copy.deepcopy(snake[-1])
     head = [head[0] + aim[0], head[1] + aim[1]]
     #print(head)
     if head in snake or not inside(head):

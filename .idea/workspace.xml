@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="207a62e4-a00d-4990-8275-229347e0e7b9" name="Default Changelist" comment="" />
+    <list default="true" id="207a62e4-a00d-4990-8275-229347e0e7b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinaFlag.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinaFlag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/snake.py">
+        <entry file="file://$PROJECT_DIR$/test1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-743">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="409">
+              <caret line="125" column="51" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="125" selection-end-column="51" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -23,36 +29,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinaFlag.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="51" />
+            <state relative-caret-position="-533">
+              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#727#1066#0" />
-                <element signature="e#1114#3231#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/read.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="103">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program Files/python3.6/Lib/turtle.py">
+        <entry file="file://$PROJECT_DIR$/chinaFlag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61696">
-              <caret line="1937" column="8" selection-start-line="1937" selection-start-column="8" selection-end-line="1937" selection-end-column="8" />
+            <state relative-caret-position="224">
+              <caret line="123" column="4" lean-forward="true" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#727#1066#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,11 +74,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/snake.py" />
         <option value="$PROJECT_DIR$/paint.py" />
-        <option value="$PROJECT_DIR$/chinaFlag.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/read.md" />
+        <option value="$PROJECT_DIR$/snake.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/chinaFlag.py" />
       </list>
     </option>
   </component>
@@ -168,27 +165,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="paint" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="100-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="D:/Program Files/python3.6/Lib/site-packages/freegames" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:/Program Files/python3.6/Lib/site-packages/freegames/paint.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="snake" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,13 +207,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="100-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.chinaFlag" />
+        <item itemvalue="Python.test1" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.paint (1)" />
-        <item itemvalue="Python.paint" />
         <item itemvalue="Python.snake" />
+        <item itemvalue="Python.paint (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -258,20 +255,20 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47256097" weight="0.16741072" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47256097" visible="true" weight="0.16741072" />
       <window_info id="Structure" order="1" sideWeight="0.527439" side_tool="true" weight="0.16741072" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" sideWeight="0.492163" weight="0.18897638" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.09828393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26615384" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40307692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923076" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4953846" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.49076924" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3276923" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -327,17 +324,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+    <entry file="file://$PROJECT_DIR$/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="288">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/snake.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-743">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="320">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="125" column="51" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="125" selection-end-column="51" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -346,23 +366,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chinaFlag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="51" />
+        <state relative-caret-position="224">
+          <caret line="123" column="4" lean-forward="true" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#727#1066#0" />
-            <element signature="e#1114#3231#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="103">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

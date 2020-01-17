@@ -88,51 +88,26 @@ def drawsubline(x=0, y=0, mag=1):
 
     # 画大五角星外接圆，圆绘制起始点为圆最右侧切点
     turtle.penup()
-    turtle.goto(r_x + 80 * mag, r_y - 50 * mag)
+    turtle.goto(r_x + 80 * msg, r_y - 50 * msg)
     turtle.pendown()
-    turtle.circle(30 * mag)
-
-    # 画4个小五角星外接圆，从上至下 (110, 20), (130, 40), (130, 70), (110, 90)
-    turtle.penup()
-    turtle.goto(r_x + 110 * mag, r_y - 20 * mag)
-    turtle.pendown()
-    turtle.circle(10 * mag)
-
-    turtle.penup()
-    turtle.goto(r_x + 130 * mag, r_y - 40 * mag)
-    turtle.pendown()
-    turtle.circle(10 * mag)
-
-    turtle.penup()
-    turtle.goto(r_x + 130 * mag, r_y - 70 * mag)
-    turtle.pendown()
-    turtle.circle(10 * mag)
-
-    turtle.penup()
-    turtle.goto(r_x + 110 * mag, r_y - 90 * mag)
-    turtle.pendown()
-    turtle.circle(10 * mag)
+    turtle.circle(30 * msg)
+    # 画四个小星星的外接圆
+    t = [(110, 20), (130, 40), (130, 70), (110, 90)]
+    for i in t:
+        turtle.penup()
+        turtle.goto(r_x + i[0] * msg, r_y - i[1] * msg)
+        turtle.pendown()
+        turtle.circle(10 * msg)
 
     # 画4个小星到大星中心的连线
-    turtle.penup()
-    turtle.goto(r_x + 100 * mag, r_y - 20 * mag)
-    turtle.pendown()
-    turtle.goto(r_x + 50 * mag, r_y - 50 * mag)
+    t1 = [(100, 20), (120, 40), (120, 70), (100, 90), (100, 90)]
+    for i in t1:
+        print(t1)
+        turtle.penup()
+        turtle.goto(r_x + i[0] * msg, r_y - i[1] * msg)
+        turtle.pendown()
+        turtle.goto(r_x + 50 * msg, r_y - 50 * msg)
 
-    turtle.penup()
-    turtle.goto(r_x + 120 * mag, r_y - 40 * mag)
-    turtle.pendown()
-    turtle.goto(r_x + 50 * mag, r_y - 50 * mag)
-
-    turtle.penup()
-    turtle.goto(r_x + 120 * mag, r_y - 70 * mag)
-    turtle.pendown()
-    turtle.goto(r_x + 50 * mag, r_y - 50 * mag)
-
-    turtle.penup()
-    turtle.goto(r_x + 100 * mag, r_y - 90 * mag)
-    turtle.pendown()
-    turtle.goto(r_x + 50 * mag, r_y - 50 * mag)
 
 
 # 绘制五星红旗
@@ -159,6 +134,7 @@ def drawflag(msg=1):
 
 if __name__ == '__main__':
     msg = 2.5
+    turtle.tracer(False)
     turtle.setup(300 * msg, 200 * msg)
     turtle.hideturtle()
     drawflag(msg=2.5)
